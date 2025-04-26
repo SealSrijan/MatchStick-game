@@ -65,10 +65,10 @@ def user_matchstick_game():
 ans = input("Welcome to the MATCHSTICK GAME.\n\nDo you want to play? (y/n): ")
 if(ans == 'y' or ans == "Y"):
     print("\n\nRules for the game are as follows.\n \n")
-    print("1. A toss is done, outcome is completely random, if You win, You start, else Computer starts")
-    print("2. There are 21 matchsticks.")
-    print("3. You are allowed to pick(choose) only 1 or 2 or 3 or 4 matchsticks at a time.")
-    print("4. The last person to pick the match will lose the game")
+    print("1. A toss is done, outcome is completely random, if You win, You start, else Computer starts"
+            ,"\n2. There are 21 matchsticks."
+            ,"\n3. You are allowed to pick(choose) only 1 or 2 or 3 or 4 matchsticks at a time."
+            ,"\n4. The last person to pick the match will lose the game")
     toss()
 elif(ans == 'n' or ans == "N"):
     print("Exit")
